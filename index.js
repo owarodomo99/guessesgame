@@ -17,6 +17,7 @@ function addCheck(nStr)
             document.querySelector("h1").innerHTML = "!!!!🚩🚩🚩  You Win  🚩🚩🚩!!!!!";
             document.querySelector("p").innerHTML = "🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩";
             bodyOnload(10000);
+            
     
           }
           document.frmMain.txtNumberA.value = " ";
@@ -71,8 +72,7 @@ if (!document.images){
 return
 }
 if (parselimit==1){
-document.querySelector("h1").innerHTML = "!!!!!!!!!!!!!  You Lose  !!!!!!!!!!!";
-document.querySelector("p").innerHTML = "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+  alert('หมดเวลาแล้วจ้า');
 // เหตุการณ์ที่ต้องการให้เกิดขึ้น
 // window.location='page.php'; ถ้าต้องการให้กระโดดไปยัง Page อื่น
 frmTest.submit();
